@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Authentic Grace</title>
+    <!-- Fontawesome import-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!--Import local css stylesheet-->
+    <link href="styles.css" rel="stylesheet" />
+
+    <!--Carousel bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <!--Header section contains navigation bar and banner-->
+    <header>
+      <img src="https://i.imgur.com/bVlANhL.png" width="100%" />
+      <nav class="topnav" id="myTopnav">
+        <a href="#home" class="active">
+          <img
+            src="https://i.imgur.com/BrukmG7.png"
+            width="50px"
+            height="50px"
+          />
+        </a>
+
+        <a href="#home">Home</a>
+        <a href="#about-us">About Us</a>
+        <a href="#contact">Contact</a>
+        <a href="#products">Products</a>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+    </header>
+
+    <section>
+      <!--Image Carousel - Series of images in carousel format.  Maybe instead of putting the logo here we can just add the carousel of images?-->
+      <article>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img_nature_wide.jpg" style="width:100%" />
+            <div class="text">Caption Text</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img_snow_wide.jpg" style="width:100%" />
+            <div class="text">Caption Two</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img_mountains_wide.jpg" style="width:100%" />
+            <div class="text">Caption Three</div>
+          </div>
+        </div>
+        <br />
+
+        <div style="text-align:center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </article>
+      <article>
+        <header>
+          <p>
+            Article Title
+          </p>
+        </header>
+        <p>
+          content
+        </p>
+      </article>
+      <aside>
+        <p>
+          Author info
+        </p>
+      </aside>
+    </section>
+
+    <!--Footer Section - Contains the contact form and social media connection -->
+    <footer>
+      <div class="social-media">
+        <h4>Connect with us</h4>
+        <ul>
+          <!--Facebook-->
+          <li class="footer-item">
+            <a href="#" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <!--Twitter-->
+          <li class="footer-item">
+            <a href="#" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <!--Instagram-->
+          <li class="footer-item">
+            <a href="#" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <!--Pinterest-->
+          <li class="footer-item">
+            <a href="#" target="_blank">
+              <i class="fab fa-pinterest"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      Copyright Info
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
