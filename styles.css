@@ -54,6 +54,7 @@ img {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  text-align: center;
 }
 
 /* Caption text */
